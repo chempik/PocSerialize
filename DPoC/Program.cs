@@ -8,6 +8,7 @@ namespace DPoC
 
         static void Main(string[] args)
         {
+            option.Create("ForTest");
             option.Validate();
         }
     }

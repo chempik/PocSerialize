@@ -19,7 +19,7 @@ namespace DPoC
         public List<IProc> clases = new List<IProc>();
         public void Create(string name)
         {
-            Proc[] array = new Proc[] { new AutorunProc("Kek") };
+            Proc[] array = new Proc[] { new AutorunProc(), new MemoryProc() };
 
             string fileName = $@"XmlFiles\{name}.xml";
             SerializeXml(fileName,array,fileName);
@@ -75,7 +75,6 @@ namespace DPoC
                         j.Hi();
                     }
                 }
-                Console.WriteLine(i.Setting);
             }
         }
     }
