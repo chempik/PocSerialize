@@ -16,46 +16,72 @@ namespace DPoC
                           .Where(x => x.GetCustomAttribute<ProcAttribute>(true) != null)
                           .ToArray();
 
-        public List<IProc> clases = new List<IProc>();
-        public void Create(string name)
+        public Rule NewDesirialize(string file)
         {
-            Proc[] array = new Proc[] { new AutorunProc(), new MemoryProc() };
+            var atters = new XmlAttributes();
+            var over = new XmlAttributeOverrides();
 
-            string fileName = $@"XmlFiles\{name}.xml";
-            SerializeXml(fileName,array,fileName);
-        }
-
-        private void SerializeXml(string name, Proc[] seting, string file)
-        {
-            var proces = new Proc(name,seting);
-            XmlSerializer formatter = new XmlSerializer(typeof(Proc), _list);
-
-            using (FileStream fs = new FileStream(file, FileMode.OpenOrCreate))
+            foreach (var i in _list)
             {
-                formatter.Serialize(fs, proces);
+                var attr = new XmlElementAttribute();
+                attr.ElementName = i.Name;
+                attr.Type = i;
+                atters.XmlElements.Add(attr);
+            }
+
+            over.Add(typeof(Rule), nameof(Rule.Proceses), atters);
+
+            var s = new XmlSerializer(typeof(Rule),over);
+
+            using (FileStream fs = new FileStream(file, FileMode.Open))
+            {
+                return (Rule)s.Deserialize(fs);
             }
         }
 
-        private Proc Deserialize(string file)
+        public void NewSirialize (string file)
         {
-            XmlSerializer formatter = new XmlSerializer(typeof(Proc), _list);
-            XDocument xdoc = XDocument.Load(file);
+            var attrs = new XmlAttributes();
+
+           foreach ( var i in _list)
+            {
+                var attr = new XmlElementAttribute();
+                attr.ElementName = i.Name;
+                attr.Type = i;
+                attrs.XmlElements.Add(attr);
+            }
+
+            var attrOver = new XmlAttributeOverrides();
+            attrOver.Add(typeof(Rule), nameof(Rule.Proceses), attrs);
+            var s = new XmlSerializer(typeof(Rule), attrOver);
+            // TextWriter writer = new StreamWriter(file);
+            //@"XmlFiles\\ForTest.xml"
+            var rule = new Rule();
+
+            List<Proc> list = new List<Proc>();
+            list.Add(new AutorunProc("kek"));
+            list.Add(new Proc("kek"));
+           // list.Add(new MemoryProc("kek"));
+            rule.Proceses = list.ToArray();
+
+           // s.Serialize(writer, rule);
             using (FileStream fs = new FileStream(file, FileMode.OpenOrCreate))
             {
-                Proc newProces = (Proc)formatter.Deserialize(fs);
-                return newProces;
+                s.Serialize(fs, rule);
             }
+
+            //writer.Close();
         }
 
-        private List<Proc> DeserializeContinue()
+        private List<Rule> DeserializeContinue()
         {
             string files = @"XmlFiles";
             string[] FileArray = Directory.GetFiles(files);
-            List<Proc> list = new List<Proc>();
+            List<Rule> list = new List<Rule>();
 
             foreach (string i in FileArray)
             {
-                list.Add(Deserialize(i));
+                list.Add(NewDesirialize(i));
             }
 
             return list;
@@ -66,11 +92,9 @@ namespace DPoC
             var XmlList = DeserializeContinue();
             foreach (var i in XmlList)
             {
-                //var exemp = Activator.CreateInstance(i) as IProc;
-                //clases.Add(exemp);
-                if (i.Setting.Length > 0)
+                if (i.Proceses.Length > 0)
                 {
-                    foreach (var j in i.Setting)
+                    foreach (var j in i.Proceses)
                     {
                         j.Hi();
                     }

@@ -8,7 +8,9 @@ namespace DPoC
 
         static void Main(string[] args)
         {
-            option.Create("ForTest");
+          //  option.Create("for my");
+           
+             option.NewSirialize(@"XmlFiles\\ForNewTest.xml");
             option.Validate();
         }
     }

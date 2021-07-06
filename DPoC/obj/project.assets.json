@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruslan\\source\\repos\\DPoC\\DPoC\\DPoC.csproj",
+      "projectUniqueName": "C:\\Users\\Ruslan\\Downloads\\DPoC (1)\\DPoC\\DPoC\\DPoC.csproj",
       "projectName": "DPoC",
-      "projectPath": "C:\\Users\\Ruslan\\source\\repos\\DPoC\\DPoC\\DPoC.csproj",
+      "projectPath": "C:\\Users\\Ruslan\\Downloads\\DPoC (1)\\DPoC\\DPoC\\DPoC.csproj",
       "packagesPath": "C:\\Users\\Ruslan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ruslan\\source\\repos\\DPoC\\DPoC\\obj\\",
+      "outputPath": "C:\\Users\\Ruslan\\Downloads\\DPoC (1)\\DPoC\\DPoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

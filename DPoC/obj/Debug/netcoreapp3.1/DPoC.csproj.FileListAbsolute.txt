@@ -11,3 +11,29 @@ C:\Users\Ruslan\source\repos\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.csproj.CoreC
 C:\Users\Ruslan\source\repos\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.dll
 C:\Users\Ruslan\source\repos\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.pdb
 C:\Users\Ruslan\source\repos\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.genruntimeconfig.cache
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.exe
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.deps.json
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.runtimeconfig.json
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.runtimeconfig.dev.json
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.dll
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.pdb
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.csprojAssemblyReference.cache
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.AssemblyInfoInputs.cache
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.AssemblyInfo.cs
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.csproj.CoreCompileInputs.cache
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.dll
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.pdb
+C:\Users\rsemeniak\Downloads\DPoC\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.genruntimeconfig.cache
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.exe
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.deps.json
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.runtimeconfig.json
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.runtimeconfig.dev.json
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.dll
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\bin\Debug\netcoreapp3.1\DPoC.pdb
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.csprojAssemblyReference.cache
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.AssemblyInfoInputs.cache
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.AssemblyInfo.cs
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.csproj.CoreCompileInputs.cache
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.dll
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.pdb
+C:\Users\Ruslan\Downloads\DPoC (1)\DPoC\DPoC\obj\Debug\netcoreapp3.1\DPoC.genruntimeconfig.cache
